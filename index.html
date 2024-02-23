@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="image/favicon-32x32.png">
+    <!-- Stylesheet -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="css/vendor/brands.css">
+    <link rel="stylesheet" href="css/vendor/regular.css">
+    <link rel="stylesheet" href="css/vendor/solid.css">
+    <link rel="stylesheet" href="css/vendor/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SSG Hospital</title>
+</head>
+
+<body>
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+
+    <!-- Header -->
+    <section class="sticky-top bg-white">
+        <div class="r-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <div class="logo-container">
+                            <img src="image/logo.jpg" alt="" class="img-fluid">
+                        </div>
+                    </a>
+                    <button class="navbar-toggler accent-color border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 font-2 fw-semibold gap-lg-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about_us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="service.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="team.html">Doctors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <a href="tel:+91 9886737399" type="button" class="btn button bg-accent-color" type="submit">Book
+                            An
+                            Appointment</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End  of Header -->
+
+    <main>
+        <!-- Banner -->
+        <section class="section image-infinite-bg position-relative"
+            style="background-size: cover; background-position: center ;padding: 15em 1em 15em 1em;"
+            data-images='["image/dummy-img-1920x900.jpg" , "image/dummy-img-1920x900.jpg"]'>
+            <div class="r-container h-100">
+                <div class="image-overlay"></div>
+                <div class="d-flex flex-column justify-content-center gap-3 h-100 position-relative"
+                    style="max-width: 768px; z-index: 2;">
+                    <h1 class="text-title text-white fw-bold font-1 lh-1">Enriching <br> Happiness</h1>
+                    <p class="text-white f-18 text-font">Welcome to SSG Hospital - <br>Premier Multispecialty Healthcare
+                        Destination on Magadi Road, Bangalore
+                    </p>
+                    <div>
+                        <a type="button" href="about_us.html" class="btn bg-accent-color text-font rounded-0">LEARN
+                            MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="position-relative" style="margin-top: -80px;">
+            <div class="r-container px-lg-0 px-4">
+                <div class="overflow-hidden rounded-4">
+                    <div class="row row-cols-1 row-cols-lg-3">
+                        <div class="col bg-accent-color-1 text-white">
+                            <div class="d-flex flex-row gap-2 align-items-center  p-4">
+                                <div class="rounded-circle bg-accent-color icon-box">
+                                    <i class="fa-solid fa-user-doctor"></i>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <span class="fw-bold font-1 fs-4">Our Services</span>
+                                    <span class="fw-bold font-1 fs-3 lh-1">
+                                        Professional & Expert Nurses
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col bg-accent-color text-white ">
+                            <div class="d-flex flex-row gap-2 align-items-center  p-4">
+                                <div class="rounded-circle bg-accent-color-2 icon-box">
+                                    <i class="fa-solid fa-stethoscope"></i>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <span class="fw-bold font-1 fs-4">Clinical Advice</span>
+                                    <span class="fw-bold font-1 fs-3 lh-1">
+                                        Trusted Quality Care Solutions
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col bg-accent-color-2 text-white">
+                            <div class="d-flex flex-row gap-2 align-items-center  p-4">
+                                <div class="rounded-circle bg-accent-color-1 icon-box">
+                                    <i class="fa-solid fa-earth-asia"></i>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <span class="fw-bold font-1 fs-4">Our Expertises</span>
+                                    <span class="fw-bold font-1 fs-3 lh-1">
+                                        World Class best Services
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Welcome To Seniorsy -->
+        <section class="section">
+            <div class="r-container">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col mb-3 pe-lg-3 position-relative">
+                        <div class="overlay right"></div>
+                        <div class="position-relative pe-5">
+                            <img src="image/home/overviewimg.jpg" alt="" class="img-fluid" style="z-index: -2;">
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column gap-3 p-3">
+                            <h6 class="accent-color font-2 ">Welcome To SSG Hospital</h6>
+                            <h3 class="text-black font-1 lh-1 fw-semibold">Premier Multispecialty Healthcare, Bangalore
+                            </h3>
+                            <p class="text-gray">
+                                Welcome to SSG Hospital, acclaimed as the best multispecialty hospital in Magadi Road,
+                                Bangalore. Established a decade ago by founders Dr. Usha and Dr. Anand Kumar, the
+                                hospital has garnered trust and recognition for delivering exceptional medical services.
+                                With a dedicated team comprising 30 experienced doctors and 20 compassionate nurses, SSG
+                                Hospital is committed to providing comprehensive and personalized care to patients.
+                            </p>
+                            <div class="row row-cols-2">
+                                <div class="col mb-2">
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <i class="fa-solid fa-circle-arrow-right accent-color"></i>
+                                        <span class="text-gray">Medicine Department</span>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <i class="fa-solid fa-circle-arrow-right accent-color"></i>
+                                        <span class="text-gray">Surgery Department</span>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <i class="fa-solid fa-circle-arrow-right accent-color"></i>
+                                        <span class="text-gray">Dermatology Department
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <i class="fa-solid fa-circle-arrow-right accent-color"></i>
+                                        <span class="text-gray">Urology Department</span>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <i class="fa-solid fa-circle-arrow-right accent-color"></i>
+                                        <span class="text-gray">Pediatrics Department</span>
+                                    </div>
+                                </div>
+                                <div class="col mb-2">
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <i class="fa-solid fa-circle-arrow-right accent-color"></i>
+                                        <span class="text-gray">Orthopedics Department
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-4 border-bottom w-100"></div>
+                            <div class="row row-cols-1 row-cols-lg-2">
+                                <div class="col mb-3">
+                                    <div
+                                        class="d-flex flex-lg-row flex-column justify-content-lg-start align-items-center gap-2 justify-content-center">
+                                        <div class="bg-accent-color text-white rounded-3 icon-box"
+                                            style="font-size: 20px; width: 3rem; height: 3rem;">
+                                            <i class="fa-solid fa-user-doctor"></i>
+                                        </div>
+                                        <span class="font-1 fs-3 lh-1 fw-semibold">Expert Nursing Staff</span>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="d-flex flex-lg-row flex-column justify-content-lg-start align-items-center gap-2 justify-content-center">
+                                        <div class="bg-accent-color text-white rounded-3 icon-box"
+                                            style="font-size: 20px; width: 3rem; height: 3rem;">
+                                            <i class="fa-solid fa-house-medical-circle-check"></i>
+                                        </div>
+                                        <span class="font-1 fs-3 lh-1 fw-semibold">Safe Solution For Health</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Types Of Care -->
+        <section class="section bg-light">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3 justify-content-center text-center">
+                    <h6 class="accent-color font-2 ">Types Of Care</h6>
+                    <h3 class="text-black font-1 lh-1 fw-semibold">Providing Quality Service & Care</h3>
+                    <p class="text-gray mx-auto" style="max-width: 768px;">
+                        At SSG Hospital, our commitment is to deliver exceptional care tailored to individual needs,
+                        ensuring patients' well-being and satisfaction. Schedule an appointment today and experience the
+                        difference at SSG Hospital – Where Wellness Begins.
+                    </p>
+                    <div class="row row-cols-1 row-cols-lg-3">
+                        <div class="col">
+                            <div class="card p-3 with-border-bottom border-0 shadow rounded-3">
+                                <img src="image/services/ser1.jpg" class="card-img-top rounded-3" alt="...">
+                                <div class="card-body ">
+                                    <h5 class="font-1 fw-bold">Medicine Department</h5>
+                                    <p class="text-gray">The Medicine department emphasizes diagnosing, treating, and
+                                        preventing medical conditions to ensure better health outcomes and quality of
+                                        life.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a type="button" href="single_service.html"
+                                            class="btn post-button font-2 d-flex flex-row align-items-center gap-2">Read
+                                            More <i class="fa-solid fa-circle-arrow-right mt-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-3 with-border-bottom border-0 shadow rounded-3">
+                                <img src="image/services/ser2.jpg" class="card-img-top rounded-3" alt="...">
+                                <div class="card-body ">
+                                    <h5 class="font-1 fw-bold">Surgery Department</h5>
+                                    <p class="text-gray">In the Surgery department, cutting-edge facilities and skilled
+                                        surgeons prioritize patient safety and comfort for successful outcomes and swift
+                                        recovery.
+                                    </p>
+                                    <div class="d-flex justify-content-center">
+                                        <a type="button" href="single_service.html"
+                                            class="btn post-button font-2 d-flex flex-row align-items-center gap-2">Read
+                                            More <i class="fa-solid fa-circle-arrow-right mt-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card p-3 with-border-bottom border-0 shadow rounded-3">
+                                <img src="image/services/ser3.jpg" class="card-img-top rounded-3" alt="...">
+                                <div class="card-body ">
+                                    <h5 class="font-1 fw-bold">Urology Department</h5>
+                                    <p class="text-gray">The Urology department offers advanced care for urinary tract
+                                        disorders, utilizing cutting-edge technology to enhance quality of life
+                                        effectively.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a type="button" href="single_service.html"
+                                            class="btn post-button font-2 d-flex flex-row align-items-center gap-2">Read
+                                            More <i class="fa-solid fa-circle-arrow-right mt-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center my-4">
+                        <a href="service.html" type="button" class="btn bg-accent-color p-3 font-2">All Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Seniorsy -->
+        <section class="section">
+            <div class="r-container">
+                <div class="d-flex flex-lg-row flex-column-reverse">
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column gap-3 p-3 h-100 justify-content-center">
+                            <h6 class="accent-color font-2 ">Why Choose SSG Hospital</h6>
+                            <h3 class="text-black font-1 lh-1 fw-bold">Our Heart Is Full Of Compassion For Your Care
+                            </h3>
+                            <div class="d-flex flex-lg-row flex-column">
+                                <div
+                                    class="col text-white gap-3 col-lg-4 rounded-2 bg-accent-color p-3 text-center d-flex flex-column justify-content-center align-items-center">
+                                    <a href="tel:+91 080-23484598"><div class="rounded-circle p-1 bg-white accent-color"
+                                        style="width: 4rem; height: 4rem; font-size: 2.3rem;">
+                                        <a href="tel:+91 08023484598"><i style="color: #E6600F;" class="fa-solid fa-phone"></i></a>
+                                    </div></a>
+                                    <h5 class="font-1 lh-1 fw-bold">Clarify Your Queries Call Us Now</h5>
+                                    <a href="tel:+91 08023484598">
+                                        <h5 class="font-1 lh-1 fw-bold" style="
+                                        color: white;
+                                    ">+080-23484598</h5>
+                                    </a>
+                                </div>
+                                <div class="col col-lg-8">
+                                    <div class="d-flex flex-column ps-3">
+                                        <p>
+                                            At SSG Hospital, patients benefit from continuous trauma and accident care,
+                                            central medical gas facilities, a dedicated laparoscopic surgery unit, MICU
+                                            with ventilator capabilities, as well as specialized physiotherapy and
+                                            prenatal yoga services.
+                                        </p>
+                                        <div class="d-flex flex-column gap-2">
+                                            <div class="d-flex flex-row gap-2 align-items-center">
+                                                <i class="fa-solid fa-square-check accent-color"></i>
+                                                24*7 Trauma & Accident Care
+                                            </div>
+                                            <div class="d-flex flex-row gap-2 align-items-center">
+                                                <i class="fa-solid fa-square-check accent-color"></i>
+                                                Central Medical Gas Facilities
+                                            </div>
+                                            <div class="d-flex flex-row gap-2 align-items-center">
+                                                <i class="fa-solid fa-square-check accent-color"></i>
+                                                Laparoscopic Surgery Unit
+                                            </div>
+                                            <div class="d-flex flex-row gap-2 align-items-center">
+                                                <i class="fa-solid fa-square-check accent-color"></i>
+                                                MICU with Ventailator facilities
+                                            </div>
+                                            <div class="d-flex flex-row gap-2 align-items-center">
+                                                <i class="fa-solid fa-square-check accent-color"></i>
+                                                Physiotherapy,Yoga in Pragrancy
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5 pe-lg-3 position-relative">
+                        <div class="overlay left"></div>
+                        <div class="position-relative ps-5">
+                            <img src="image/home/whychoose.jpg" alt="" class="img-fluid rounded-3" style="z-index: -2;">
+                            <div class="position-absolute bottom-0 end-0 d-flex justify-content-end">
+                                <div class=" bg-accent-color rounded-3 p-4 w-75" style="margin-bottom: -3rem;">
+                                    <h6 class="font-1 text-white fw-bold">The Patient Is First Priority In Our Passion
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section pt-0">
+            <div class="r-container">
+                <div class="row row-cols-1 row-cols-lg-4">
+                    <div class="col">
+                        <div
+                            class="card with-border-bottom border-0 shadow d-flex flex-column justify-content-center  align-items-center p-2">
+                            <h3 class="accent-color font-1 fw-bold lh-1">500+</h3>
+                            <h5 class="font-1 fw-bold">Completed Cases</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card with-border-bottom border-0 shadow d-flex flex-column justify-content-center  align-items-center p-2">
+                            <h3 class="accent-color font-1 fw-bold lh-1">50+</h3>
+                            <h5 class="font-1 fw-bold">Nursing Staff</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card with-border-bottom border-0 shadow d-flex flex-column justify-content-center  align-items-center p-2">
+                            <h3 class="accent-color font-1 fw-bold lh-1">20+</h3>
+                            <h5 class="font-1 fw-bold">Senior Doctors</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="card with-border-bottom border-0 shadow d-flex flex-column justify-content-center  align-items-center p-2">
+                            <h3 class="accent-color font-1 fw-bold lh-1">200+</h3>
+                            <h5 class="font-1 fw-bold">Happy Couples</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- We Care With Compassion -->
+        <section class="position-relative" style="background-image: url(image/dummy-img-1920x900.jpg);">
+            <div class="r-container">
+                <div class="image-overlay"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center text-center position-relative gap-3"
+                    style="z-index: 2; min-height: 70vh;">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <div class="d-flex flex-row gap-3 align-items-center">
+                            <button type="button" class="btn request-loader" data-bs-toggle="modal"
+                                data-bs-target="#videomodal">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <h4 class="font-1 text-white fw-bold">We Care With Compassion</h4>
+                    <p class="text-white" style="max-width: 768px;">
+                        Welcome to SSG Hospital, where compassionate care meets cutting-edge treatment. Our dedicated
+                        team strives for excellence in patient care, utilizing state-of-the-art technology to provide
+                        personalized medical solutions. Experience the warmth of our hospitality and the expertise of
+                        our staff.
+                    </p>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade bg-overlay" id="videomodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content bg-dark-color">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/sFwRQQP2uB4?si=rg2wzl4LqhKWBI70"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What They Say ? -->
+        <section class="section pt-0 position-relative" style="margin-top: -100px;">
+            <div class="r-container">
+                <div class="overflow-hidden rounded-4">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col bg-accent-color text-white ">
+                            <div class="d-flex flex-column gap-3 p-5 h-100 justify-content-center">
+                                <h6 class="font-2 ">What They Say ?</h6>
+                                <h3 class="font-1 lh-1 fw-bold fs-1">Love To Serve You, With Compassionate Care</h3>
+                                <p class="fs-6">
+                                    SSG Hospital provides exceptional care with a compassionate touch. Their dedicated
+                                    staff, state-of-the-art facilities, and commitment to patient well-being make it a
+                                    trusted healthcare destination for all.
+                                </p>
+                                <div>
+                                    <a href="contact.html" type="button" class="btn bg-accent-color-1 p-3">Contact
+                                        Us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col bg-light text-white">
+                            <div class="overflow-hidden h-100 d-flex align-items-center">
+                                <div class="swiper">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <div class="d-flex flex-column gap-3 p-4 text-black">
+                                                <ul class="d-flex flex-row gap-2 p-0 m-0 text-warning"
+                                                    style="list-style: none;">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <p>My Elder brother was admitted for Emergency treatment and further
+                                                    advised admission in hospital.
+
+                                                    There is good team lead by Dr.Anand who has explained medical
+                                                    condition of patient and taken nice care. The panel of doctors who
+                                                    we have interacted are well qualified.
+
+                                                    It is a small hospital with nice setup 👌
+                                                </p>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <img src="image/testimonial/man.png" alt=""
+                                                            class="img-fluid rounded-circle" width="70" height="70">
+                                                        <div class="d-flex flex-column h-100 justify-content-center">
+                                                            <span class="text-black">Sathyanath R</span>
+                                                            <span class="text-gray">Patient</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accent-color" style="font-size: 3rem;">
+                                                        <i class="fa-solid fa-quote-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="d-flex flex-column gap-3 p-4 text-black">
+                                                <ul class="d-flex flex-row gap-2 p-0 m-0 text-warning"
+                                                    style="list-style: none;">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <p>Good hospitality, clean and hygienic doctors are very carring and we
+                                                    are very happy and satisfied with the environment and the staf.
+                                                </p>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <img src="image/testimonial/men1.png" alt=""
+                                                            class="img-fluid rounded-circle" width="70" height="70">
+                                                        <div class="d-flex flex-column h-100 justify-content-center">
+                                                            <span class="text-black">Srinivas Murthy</span>
+                                                            <span class="text-gray">patient</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accent-color" style="font-size: 3rem;">
+                                                        <i class="fa-solid fa-quote-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="d-flex flex-column gap-3 p-4 text-black">
+                                                <ul class="d-flex flex-row gap-2 p-0 m-0 text-warning"
+                                                    style="list-style: none;">
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                </ul>
+                                                <p>Ssg hospital was good treatment and affordable price Dr Anand and Mr
+                                                    Sachin , staffs was excellent but i recently visited hospital for
+                                                    general checkup there was duty doctor name called Dr manohar he
+                                                    behavior with patient was very rudely and unprofessional he doesn't
+                                                    take proper history from patient he write unecassary medication to
+                                                    patient i request to Dr Anand to change duty doctor
+                                                </p>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <img src="image/testimonial/girl.png" alt=""
+                                                            class="img-fluid rounded-circle" width="70" height="70">
+                                                        <div class="d-flex flex-column h-100 justify-content-center">
+                                                            <span class="text-black">Harsha Prince</span>
+                                                            <span class="text-gray">patient</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accent-color" style="font-size: 3rem;">
+                                                        <i class="fa-solid fa-quote-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- If we need pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Work ? -->
+        <section class="section bg-light">
+            <div class="r-container">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column gap-3 h-100 justify-content-center">
+                            <h6 class="font-2 accent-color">How It Work ?</h6>
+                            <h3 class="font-1 lh-1 fw-bold fs-1 mb-3">The Amazing Steps Of Our Treatment</h3>
+                            <div class="d-flex flex-column gap-5">
+                                <div class="d-flex flex-row gap-3 align-items-center">
+                                    <div class="bg-accent-color rounded-3 py-2 px-4 text-white">
+                                        <h4 class="lh-1 m-0 p-0 fw-bold font-1">1</h4>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h5 class="font-1 fw-bold lh-1 m-0">
+                                            Book Your Appointment
+                                        </h5>
+                                        <p class="text-gray m-0">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row gap-3 align-items-center">
+                                    <div class="bg-accent-color rounded-3 py-2 px-4 text-white">
+                                        <h4 class="lh-1 m-0 p-0 fw-bold font-1">2</h4>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h5 class="font-1 fw-bold lh-1 m-0">
+                                            In Person Counselling
+                                        </h5>
+                                        <p class="text-gray m-0">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row gap-3 align-items-center">
+                                    <div class="bg-accent-color rounded-3 py-2 px-4 text-white">
+                                        <h4 class="lh-1 m-0 p-0 fw-bold font-1">3</h4>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h5 class="font-1 fw-bold lh-1 m-0">
+                                            Weekly Followup
+                                        </h5>
+                                        <p class="text-gray m-0">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="bg-accent-color rounded-4">
+                            <div class="h-100 d-flex flex-column p-5">
+                                <h6 class="font-2 text-white">Fill The Form</h6>
+                                <h3 class="font-1 lh-1 fw-bold fs-1 mb-3 text-white">Get In Touch</h3>
+                                <div class="success_msg toast align-items-center w-100 shadow-none mb-3 border border-success rounded-0 my-4"
+                                    role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="d-flex p-2">
+                                        <div
+                                            class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-success">
+                                            <i class="fa-solid fa-check f-36 text-success"></i>
+                                            Your Message Successfully Send.
+                                        </div>
+                                        <button type="button"
+                                            class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-success"
+                                            data-bs-dismiss="toast" aria-label="Close"><i
+                                                class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                </div>
+                                <div class="error_msg toast align-items-center w-100 shadow-none border-danger mb-3 my-4 border rounded-0"
+                                    role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="d-flex p-2">
+                                        <div
+                                            class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-danger">
+                                            <i class="fa-solid fa-triangle-exclamation f-36 text-danger"></i>
+                                            Something Wrong ! Send Form Failed.
+                                        </div>
+                                        <button type="button"
+                                            class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-danger"
+                                            data-bs-dismiss="toast" aria-label="Close"><i
+                                                class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                </div>
+                                <form action=""
+                                    class="d-flex flex-column h-100 justify-content-center w-100 needs-validation mb-3 form"
+                                    novalidate>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control py-2 px-4" name="name" id="name"
+                                            placeholder="Name" required>
+                                        <div class="invalid-feedback">
+                                            The field is required.
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control py-2 px-4" name="email" id="email"
+                                            placeholder="Email" required>
+                                        <div class="invalid-feedback">
+                                            The field is required.
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control py-2 px-4" name="subject" id="subject"
+                                            placeholder="Subject" required>
+                                        <div class="invalid-feedback">
+                                            The field is required.
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control py-2 px-4" id="message" name="message" rows="5"
+                                            placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <button type="submit" class="btn submit_form py-3">
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="py-5 position-relative" style="background-image: url(image/dummy-img-1920x900.jpg);">
+            <div class="r-container">
+                <div class="image-overlay-2"></div>
+                <div class="position-relative" style="z-index: 2;">
+                    <div class="row row-cols-1 row-cols-lg-2 text-lg-start text-center px-lg-0 px-3">
+                        <div class="col">
+                            <h4 class="text-white font-1 fw-bold fs-1">
+                                Give Your Loved Ones Quality Care You Can Trust</h4>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex justify-content-lg-end justify-content-center h-100 align-items-center">
+                                <a href="tel:+91 9886737399" type="button" class="btn btn-dark px-4 py-3 fs-5">Contact Us
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="px-lg-0 px-4 py-lg-5 py-4 bg-accent-color-1" style="background-color: #434A5A;">
+            <div class="r-container text-white">
+                <div class="row row-cols-1 row-cols-lg-4">
+                    <div class="col col-lg-4 mb-3">
+                        <div class="d-flex flex-column h-100 justify-content-center" style="padding-bottom: 100px;">
+                            <div class="logo-container">
+                                <a href="index.html"><img src="image/logo-2.png" alt="Logo" class="img-fluid"></a>
+                            </div>
+                            <p><br>
+                                At SSG Hospital, our commitment is to deliver exceptional care tailored to individual
+                                needs, ensuring patients' well-being and satisfaction. Schedule an appointment today and
+                                experience the difference at SSG Hospital – Where Wellness Begins.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-2 mb-3">
+                        <div class="d-flex flex-column">
+                            <h5 class="font-1 fw-bold mb-3">Quick Link</h5>
+                            <div class="d-flex flex-column gap-2">
+                                <a href="index.html" class="d-flex flex-row gap-2 align-items-center link-light"><i
+                                        class="fa-solid fa-chevron-right accent-color"></i> Home</a>
+                                <a href="about_us.html" class="d-flex flex-row gap-2 align-items-center link-light"><i
+                                        class="fa-solid fa-chevron-right accent-color"></i> About Us</a>
+                                <a href="service.html" class="d-flex flex-row gap-2 align-items-center link-light"><i
+                                        class="fa-solid fa-chevron-right accent-color"></i> Services</a>
+                                <a href="team.html" class="d-flex flex-row gap-2 align-items-center link-light"><i
+                                        class="fa-solid fa-chevron-right accent-color"></i> Doctors</a>
+                                <a href="contact.html" class="d-flex flex-row gap-2 align-items-center link-light"><i
+                                        class="fa-solid fa-chevron-right accent-color"></i> Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-lg-4 mb-3">
+                        <div class="d-flex flex-column mb-3">
+                            <h5 class="font-1 fw-bold mb-2">Get In Touch</h5>
+                            <div class="d-flex flex-wrap">
+                                <div class="d-flex flex-row me-2 gap-2 align-items-center">
+                                    <a href="https://maps.app.goo.gl/4xQ3LSbhwX3GyUTFA" style="color:white"><i
+                                            class="fa-solid fa-location-dot"></i>
+                                        2nd, 171, Main, Magadi Main Rd, behind Shell Petrol Pump, Kempegowdanagar,
+                                        Byadarahalli, Bengaluru</a>
+                                </div>
+                                
+                                <div class="d-flex flex-row me-2 gap-2 align-items-center">
+                                    <a href="tel:+91 9886737399" style="color: white;"><i class="fa-solid fa-phone"></i>
+                                        +91 9886737399 &nbsp;&nbsp;&nbsp;
+                                </div>
+                                <div class="d-flex flex-row me-2 gap-2 align-items-center">
+                                    <a href="tel:+91 9739533233" style="color: white;"><i class="fa-solid fa-phone"></i>
+                                        +91 9739533233
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-3">
+                            <h5 class="font-1 fw-bold mb-2">Social Media :</h5>
+                            <div class="social-container">
+                                <a href="https://www.facebook.com/ssghospital/" class="social-item">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="https://youtu.be/sFwRQQP2uB4?si=Rb5oPVHffLI9HiSq" class="social-item">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="https://www.instagram.com/s.s.g_hospital/" class="social-item">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-2 mb-3">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex flex-column gap-2">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124408.35007034965!2d77.3970661438277!3d12.987136424215509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3c6cd9adf681%3A0xae35fd7f2420cb51!2sS.S.G%20HOSPITAL!5e0!3m2!1sen!2sin!4v1708515369681!5m2!1sen!2sin"
+                                    width="270" height="260" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100" style="border-bottom: 1px solid var(--accent-color-2);"></div>
+                <div class="text-center p-2">© Copyright 2024. All Rights Reserved. SSG Hospital</div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="js/vendor/fslightbox.js"></script>
+    <script src="js/masonry.js"></script>
+</body>
+
+</html>
